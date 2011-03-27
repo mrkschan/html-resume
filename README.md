@@ -12,3 +12,7 @@ http://html5boilerplate.com/ - The starting kit of this stuff.
 ## blueprintcss
 
 http://www.blueprintcss.org/ - A css framework with easy-to-use grid.
+
+## jqcloud
+
+https://github.com/DukeLeNoir/jQCloud - jQuery plugin for drawing neat word clouds that actually look like clouds.
