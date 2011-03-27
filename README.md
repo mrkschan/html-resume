@@ -8,3 +8,7 @@ Just a resume holded in a HTML5 file. Hopes to become a template for doing resum
 ## html5boilerplate
 
 http://html5boilerplate.com/ - The starting kit of this stuff.
+
+## blueprintcss
+
+http://www.blueprintcss.org/ - A css framework with easy-to-use grid.
