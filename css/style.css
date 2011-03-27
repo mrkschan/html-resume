@@ -169,12 +169,17 @@ a:hover { color: #036; }
  */
 
 section h1 {
-  font-size: 24px;
+  font-size: 26px;
+  margin-bottom: 13px;
 }
 
 section div, section + hr {
   display: inline-block;
-  margin-top: .5em;
+  margin-top: 13px;
+}
+
+#skills div {
+  margin-top: 0;
 }
 
 #experience p {
