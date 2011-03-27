@@ -12,3 +12,7 @@ http://html5boilerplate.com/ - The starting kit of this stuff.
 ## blueprintcss
 
 http://www.blueprintcss.org/ - A css framework with easy-to-use grid.
+
+## A Simple Tag Cloud Plugin for JQuery
+
+https://github.com/addywaddy/jquery.tagcloud.js - A Simple Tag Cloud Plugin for JQuery.
