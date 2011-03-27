@@ -165,16 +165,21 @@ a:hover { color: #036; }
 /**
  * Primary styles
  *
- * Author: 
+ * Author: KS Chan (mrkschan@gmail.com)
  */
 
+section h1 {
+  font-size: 24px;
+}
 
+section div, section + hr {
+  display: inline-block;
+  margin-top: .5em;
+}
 
-
-
-
-
-
+#experience p {
+  font-size: smaller;
+}
 
 
 

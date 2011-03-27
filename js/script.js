@@ -5,10 +5,10 @@
 // Skills Tag-cloud
 (function($) {
   var skills = $('#skills'),
-      flag = $(skills).attr('tagcloud');
+      container = $('#tagcloud');
 
-  if (flag !== 'enabled') {
-    // skip if not enabled
+  if (container.length < 1) {
+    // skip if no #tagcloud div
     return;
   }
 
@@ -22,10 +22,9 @@
         advanced = $('ul:eq(0) li', skills),
         intermediate = $('ul:eq(1) li', skills),
         elementary = $('ul:eq(2) li', skills),
-        min_size = 14, min_size_def = $(skills).attr('minsize'),
-        max_size = 32, max_size_def = $(skills).attr('maxsize'),
-        tags = [],
-        container = $('<div />', {'class': 'span-24 last push-2'});
+        min_size = 10, min_size_def = $(skills).attr('minsize'),
+        max_size = 16, max_size_def = $(skills).attr('maxsize'),
+        tags = [];
 
     if (min_size_def) {
       min_size = parseInt(min_size_def);
@@ -75,4 +74,22 @@
     });
   }
   cloudify();
+})(jQuery);
+
+// Beautifying the content
+(function($) {
+  $(document).ready(function() {
+    var experience = $('#experience div'),
+        education = $('#education div');
+
+    $('section div').addClass('span-24 last');
+
+    $('h2', experience).addClass('span-12 append-7');
+    $('p', experience).addClass('span-5 last');
+    $('h3', experience).addClass('span-24 last');
+
+    $('h2', education).addClass('span-12 append-7');
+    $('p', education).addClass('span-5 last');
+    $('h3', education).addClass('span-24 last');
+  });
 })(jQuery);
