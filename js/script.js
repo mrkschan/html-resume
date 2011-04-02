@@ -22,8 +22,8 @@
         advanced = $('ul:eq(0) li', skills),
         intermediate = $('ul:eq(1) li', skills),
         elementary = $('ul:eq(2) li', skills),
-        min_size = 10, min_size_def = $(container).attr('minsize'),
-        max_size = 16, max_size_def = $(container).attr('maxsize'),
+        min_size = 10, min_size_def = $(container).attr('data-min-font-size'),
+        max_size = 16, max_size_def = $(container).attr('data-max-font-size'),
         tags = [];
 
     if (min_size_def) {
