@@ -239,11 +239,7 @@ section h1 + div {
   margin-top: 0;
 }
 
-#experience p {
-  font-size: 80%;
-}
-
-#education p {
+#experience p, #education p {
   font-size: 80%;
 }
 
