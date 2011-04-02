@@ -6,6 +6,8 @@ One particular objective of this template is to prevent user from doing the CSS 
 
 Another objective of this template is to try putting the technologies / buzz-words (which I just lazily call them skills) that someone acquired into a "skill cloud" (indeed something just like a tag cloud). In contrast to listing them one by one, a "skill cloud" would clearly show the expertise.
 
+If you would like to add your own section, just copy-n-paste any <section> inside the only <article> block and start work on it :)
+
 
 # Depends on...
 
