@@ -76,11 +76,12 @@
   cloudify();
 })(jQuery);
 
-// Beautifying the content
+// Content layout
 (function($) {
   $(document).ready(function() {
-    var experience = $('#experience div'),
-        education = $('#education div');
+    var education = $('#education div'),
+        experience = $('#experience div'),
+        header = $('header');
 
     $('section div').addClass('span-24 last');
 
@@ -90,6 +91,10 @@
 
     $('h2', education).addClass('span-12 append-7');
     $('p', education).addClass('span-5 last');
-    $('h3', education).addClass('span-24 last');
+    $('span', education).addClass('span-24 last');
+
+    $('div', header).addClass('span-12 append-4');
+    $('ul', header).addClass('span-8 last');
+    $('p', header).addClass('span-23 append-1 last');
   });
 })(jQuery);

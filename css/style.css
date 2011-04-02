@@ -168,18 +168,67 @@ a:hover { color: #036; }
  * Author: KS Chan (mrkschan@gmail.com)
  */
 
+header {
+  background-color: #F6F6F2;
+  display: inline-block;
+  float: left;
+  margin-bottom: 18px;
+  padding-top: 13px;
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+header h2 {
+  font-size: 15px;
+}
+
+header h1, header h2 {
+  padding-left: 10px;
+}
+
+header ul {
+  font-size: 85%;
+  font-weight: bold;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+header h1, header h2, header ul {
+  color: #0678BE;
+}
+
+header p {
+  background-color: #FFF;
+  font-size: 14px;
+  line-height: 1.5em;
+  margin-top: 24px;
+  padding: 13px 0px 5px 10px;
+}
+
 section h1 {
   background-color: #F6F6F2;
   color: #0678BE;
   float: left;
-  font-size: 26px;
-  padding: 5px;
+  font-size: 24px;
+  padding: 5px 0px 5px 10px;
   width: 100%;
+}
+
+section h2 {
+  font-size: 14px;
+}
+
+section h3 {
+  font-size: 12px;
 }
 
 section div {
   display: inline-block;
   margin-bottom: 13px;
+  padding-left: 10px;
 }
 
 section h1 + div {
@@ -191,9 +240,12 @@ section h1 + div {
 }
 
 #experience p {
-  font-size: smaller;
+  font-size: 80%;
 }
 
+#education p {
+  font-size: 80%;
+}
 
 
 
