@@ -169,12 +169,20 @@ a:hover { color: #036; }
  */
 
 section h1 {
+  background-color: #F6F6F2;
+  color: #0678BE;
+  float: left;
   font-size: 26px;
+  padding: 5px;
+  width: 100%;
+}
+
+section div {
+  display: inline-block;
   margin-bottom: 13px;
 }
 
-section div, section + hr {
-  display: inline-block;
+section h1 + div {
   margin-top: 13px;
 }
 
