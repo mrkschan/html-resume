@@ -76,17 +76,6 @@
   cloudify();
 })(jQuery);
 
-// Printing
-(function ($) {
-  $(document).ready(function() {
-    var search = window.location.search;
-    if (search.indexOf('format=print') == -1) {
-      return;
-    }
-    $('#printer').hide();
-  });
-})(jQuery);
-
 // Content layout
 (function($) {
   $(document).ready(function() {
@@ -115,3 +104,21 @@
     $('p', footer).addClass('span-24 last');
   });
 })(jQuery);
+
+// Printing
+(function ($) {
+  $(document).ready(function() {
+    var search = window.location.search;
+    if (search.indexOf('format=print') == -1) {
+      return;
+    }
+    $('#printer').hide();
+    $('a').each(function() {
+      $(this).html($(this).attr('href'));
+    });
+    $('ul', $('footer')).addClass('span-24 last');
+
+    window.print();
+  });
+})(jQuery);
+
