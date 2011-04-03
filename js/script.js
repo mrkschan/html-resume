@@ -76,11 +76,23 @@
   cloudify();
 })(jQuery);
 
+// Printing
+(function ($) {
+  $(document).ready(function() {
+    var search = window.location.search;
+    if (search.indexOf('format=print') == -1) {
+      return;
+    }
+    $('#printer').hide();
+  });
+})(jQuery);
+
 // Content layout
 (function($) {
   $(document).ready(function() {
     var education = $('#education div'),
         experience = $('#experience div'),
+        footer = $('footer'),
         header = $('header');
 
     $('section div').addClass('span-24 last');
@@ -96,5 +108,10 @@
     $('div', header).addClass('span-12 append-4');
     $('ul', header).addClass('span-8 last');
     $('p', header).addClass('span-23 append-1 last');
+
+    $('div', footer).addClass('span-24 last');
+    $('ul', footer).addClass('span-19');
+    $('span', footer).addClass('col');
+    $('p', footer).addClass('span-24 last');
   });
 })(jQuery);

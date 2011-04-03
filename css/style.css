@@ -235,6 +235,33 @@ section h1 + div {
   margin-top: 13px;
 }
 
+footer div {
+  background-color: #F6F6F2;
+  color: #0678BE;
+  font-size: 80%;
+  font-weight: bold;
+  margin-top: 13px;
+  padding: 13px 10px 16px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer a, footer a:hover, footer a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer p {
+  margin-top: 5px;
+}
+
 #skills div {
   margin-top: 0;
 }
