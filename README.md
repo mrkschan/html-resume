@@ -17,11 +17,20 @@ Sample - [http://mrkschan.github.com/html5-resume/](http://mrkschan.github.com/h
 * http://www.blueprintcss.org/ - A css framework with easy-to-use grid.
 * https://github.com/addywaddy/jquery.tagcloud.js - A Simple Tag Cloud Plugin for JQuery.
 
+
+# Build step...
+
+    $> cd html5-resume/build/
+    $> ant minify
+    
+    output available at: html5-resume/publish/
+
+
 # Copyright
 
 This stuff is licensed with the Unlicense (http://unlicense.org/). You may find a copy of the license in the LICENSE file.
 
-html5boilerplate - http://unlicense.org/ (a.k.a. public domain)
+html5boilerplate - Unlicense (a.k.a. public domain - http://unlicense.org/)  
 For the licenses of the great works that html5boilerplate is composed of, please refer to https://github.com/paulirish/html5-boilerplate/blob/master/README.md
 
 blueprintcss - MIT License (https://github.com/joshuaclayton/blueprint-css/blob/master/LICENSE)
