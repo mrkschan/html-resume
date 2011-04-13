@@ -84,12 +84,12 @@ function __is_print() {
 // Content layout
 (function($) {
   $(document).ready(function() {
-    var education = $('#education div'),
-        experience = $('#experience div'),
+    var education = $('#education > div'),
+        experience = $('#experience > div'),
         footer = $('footer'),
         header = $('header');
 
-    $('section div').addClass('span-24 last');
+    $('section > div').addClass('span-24 last');
 
     $('h2', experience).addClass('span-12 append-7');
     $('p', experience).addClass('span-5 last');
