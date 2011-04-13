@@ -2,6 +2,11 @@
 - KS Chan (mrkschan@gmail.com)
 */
 
+function __is_print() {
+  var search = window.location.search;
+  return (search.indexOf('format=print') > -1);
+}
+
 // Skills Tag-cloud
 (function($) {
   var skills = $('#skills'),
@@ -108,10 +113,10 @@
 // Printing
 (function ($) {
   $(document).ready(function() {
-    var search = window.location.search;
-    if (search.indexOf('format=print') == -1) {
+    if (false == __is_print()) {
       return;
     }
+
     $('#printer').hide();
     $('a').each(function() {
       $(this).html($(this).attr('href'));
