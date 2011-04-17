@@ -225,7 +225,7 @@ section h3 {
   font-size: 12px;
 }
 
-section div {
+section > div {
   display: inline-block;
   margin-bottom: 13px;
   padding-left: 10px;
