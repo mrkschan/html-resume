@@ -62,8 +62,8 @@ function __is_print() {
       return $(a).attr('text').toLowerCase() > $(b).attr('text').toLowerCase();
     });
 
-    $(h2).hide();
-    $(ul).hide();
+    $(h2).addClass('hidden');
+    $(ul).addClass('hidden');
 
     $(tags).each(function(idx, el) {
       $(container).append($('<span />', {
@@ -117,7 +117,7 @@ function __is_print() {
       return;
     }
 
-    $('#printer').hide();
+    $('#printer').addClass('hidden');
     $('a').each(function() {
       $(this).html($(this).attr('href'));
     });
