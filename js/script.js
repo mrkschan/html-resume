@@ -9,8 +9,7 @@ function __is_print() {
 
 // Skills Tag-cloud
 (function($) {
-  var skills = $('#skills'),
-      container = $('#tagcloud');
+  var container = $('#tagcloud');
 
   if (container.length < 1) {
     // skip if no #tagcloud div
@@ -18,10 +17,10 @@ function __is_print() {
   }
 
   function cloudify() {
-
     var ADVANCED_WEIGHT = 64,
         INTERMEDIATE_WEIGHT = 32,
         ELEMENTARY_WEIGHT = 16,
+        skills = $('#skills'),
         h2 = $('h2', skills),
         ul = $('ul', skills),
         advanced = $('ul:eq(0) li', skills),
