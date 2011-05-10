@@ -169,7 +169,18 @@ a:hover { color: #036; }
  */
 
 nav {
-  float: left;
+  left: 0px;
+  position: fixed;
+}
+
+*html nav {
+    position: absolute;
+    left: expression( ( 0   ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) )   'px' );
+    top: expression( ( 0   ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) )   'px' );
+}
+
+h1 a, h1 a:hover  {
+  color: #0678BE;
 }
 
 header {
@@ -199,7 +210,7 @@ header ul {
   margin-left: 0;
 }
 
-header h1, header h2, header ul {
+header h2, header ul {
   color: #0678BE;
 }
 
@@ -217,10 +228,6 @@ section h1 {
   font-size: 24px;
   padding: 5px 0px 5px 10px;
   width: 100%;
-}
-
-section h1 a, section h1 a:hover  {
-  color: #0678BE;
 }
 
 section h2 {
@@ -256,11 +263,11 @@ footer ul {
 }
 
 footer ul li {
-  display: inline-block;
+  display: inline;
 }
 
 footer a, footer a:hover, footer a:visited {
-  color: inherit;
+  color: #0678BE;
   text-decoration: none;
 }
 

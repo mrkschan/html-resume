@@ -69,7 +69,7 @@ function __is_print() {
       $(container).append($('<span />', {
         'style': 'display: inline-block; margin: 0 5px;',
         'html': $(el).attr('text'),
-        'rel': $(el).attr('rel'),
+        'rel': $(el).attr('rel')
       }));
     });
     $(container).appendTo(skills);
@@ -119,7 +119,8 @@ function __is_print() {
     }
 
     $('#printer').addClass('hidden');
-    $('a').each(function() {
+    $('nav').addClass('hidden');
+    $('a:not(h1 > a)').each(function() {
       $(this).html($(this).attr('href'));
     });
     $('ul', $('footer')).addClass('span-24 last');
