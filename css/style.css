@@ -169,14 +169,42 @@ a:hover { color: #036; }
  */
 
 nav {
-  left: 0px;
+  background-color: #F6F6F2;
+  left: 23px;
+  padding: 10px 10px 15px;
   position: fixed;
+  top: 30px;
+
+  /* Safari */
+  -webkit-transform: rotate(90deg);
+  /* Firefox */
+  -moz-transform: rotate(90deg);
+  -moz-transform-origin: 20px 0px;
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
 }
 
 *html nav {
     position: absolute;
     left: expression( ( 0   ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) )   'px' );
     top: expression( ( 0   ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) )   'px' );
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a, nav a:visited {
+  color: #0678BE;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #2395DB;
 }
 
 h1 a, h1 a:hover  {

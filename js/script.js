@@ -82,6 +82,14 @@ function __is_print() {
 })(jQuery);
 
 
+// Scroll to anchor
+(function($) {
+  $(document).ready(function() {
+    $("a.anchorLink").anchorAnimate({speed: 500});
+  });
+})(jQuery);
+
+
 // Content layout
 (function($) {
   $(document).ready(function() {

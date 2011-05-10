@@ -134,10 +134,6 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 *****/
 
 (function($) {
-    $(document).ready(function() {
-    	$("a.anchorLink").anchorAnimate()
-    });
-    
     jQuery.fn.anchorAnimate = function(settings) {
     
      	settings = jQuery.extend({
