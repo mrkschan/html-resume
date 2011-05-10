@@ -16,13 +16,14 @@ Sample - [http://mrkschan.github.com/html5-resume/](http://mrkschan.github.com/h
 * http://html5boilerplate.com/ - The starting kit of this stuff.
 * http://www.blueprintcss.org/ - A css framework with easy-to-use grid.
 * https://github.com/addywaddy/jquery.tagcloud.js - A Simple Tag Cloud Plugin for JQuery.
+* http://www.position-absolute.com/articles/better-html-anchor-a-jquery-script-to-slide-the-scrollbar/ - A JQuery plugin for sliding to anchor
 
 
 # Build step...
 
     $> cd html5-resume/build/
     $> ant minify
-    
+
     output available at: html5-resume/publish/
 
 
@@ -36,3 +37,5 @@ For the licenses of the great works that html5boilerplate is composed of, please
 blueprintcss - MIT License (https://github.com/joshuaclayton/blueprint-css/blob/master/LICENSE)
 
 jquery.tagcloud.js - MIT License (https://github.com/addywaddy/jquery.tagcloud.js/blob/master/LICENSE)
+
+jquery.anchor.js - by Cedric Dugas (http://www.position-absolute.com)

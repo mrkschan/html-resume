@@ -7,6 +7,7 @@ function __is_print() {
   return (search.indexOf('format=print') > -1);
 }
 
+
 // Skills Tag-cloud
 (function($) {
   var container = $('#tagcloud');
@@ -79,6 +80,7 @@ function __is_print() {
   }
   cloudify();
 })(jQuery);
+
 
 // Content layout
 (function($) {

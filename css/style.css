@@ -168,10 +168,13 @@ a:hover { color: #036; }
  * Author: KS Chan (mrkschan@gmail.com)
  */
 
+nav {
+  float: left;
+}
+
 header {
   background-color: #F6F6F2;
   display: inline-block;
-  float: left;
   margin-bottom: 18px;
   padding-top: 13px;
 }
@@ -210,11 +213,14 @@ header p {
 
 section h1 {
   background-color: #F6F6F2;
-  color: #0678BE;
   float: left;
   font-size: 24px;
   padding: 5px 0px 5px 10px;
   width: 100%;
+}
+
+section h1 a, section h1 a:hover  {
+  color: #0678BE;
 }
 
 section h2 {
