@@ -153,6 +153,7 @@ body, select, input, textarea {
   color: #444;
   /* Set your base font here, to apply evenly */
   /* font-family: Georgia, serif;  */
+  font-family: arial, sans-serif;
 }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
@@ -169,26 +170,20 @@ a:hover { color: #036; }
  */
 
 nav {
-  background-color: #F6F6F2;
-  left: 23px;
-  padding: 10px 10px 15px;
   position: fixed;
   top: 30px;
-
-  /* Safari */
-  -webkit-transform: rotate(90deg);
-  /* Firefox */
-  -moz-transform: rotate(90deg);
-  -moz-transform-origin: 20px 0px;
-
-  /* Internet Explorer */
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  left: 0px;
 }
 
 *html nav {
     position: absolute;
     left: expression( ( 0   ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) )   'px' );
     top: expression( ( 0   ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) )   'px' );
+}
+
+nav ul {
+  background-color: #F6F6F2;
+  padding: 10px 10px 15px;
 }
 
 nav ul li {

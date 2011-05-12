@@ -82,10 +82,11 @@ function __is_print() {
 })(jQuery);
 
 
-// Scroll to anchor
+// Scroll to anchor & sidebar nav
 (function($) {
   $(document).ready(function() {
     $("a.anchorLink").anchorAnimate({speed: 500});
+    $('nav ul').transform({rotate: '90deg', origin: ['0px', '35px']});
   });
 })(jQuery);
 
