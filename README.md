@@ -16,7 +16,8 @@ Sample - [http://mrkschan.github.com/html5-resume/](http://mrkschan.github.com/h
 * http://html5boilerplate.com/ - The starting kit of this stuff.
 * http://www.blueprintcss.org/ - A css framework with easy-to-use grid.
 * https://github.com/addywaddy/jquery.tagcloud.js - A Simple Tag Cloud Plugin for JQuery.
-* http://www.position-absolute.com/articles/better-html-anchor-a-jquery-script-to-slide-the-scrollbar/ - A JQuery plugin for sliding to anchor
+* http://www.position-absolute.com/articles/better-html-anchor-a-jquery-script-to-slide-the-scrollbar/ - A JQuery plugin for sliding to anchor.
+* http://wiki.github.com/heygrady/transform/ - A JQuery plugin to handle 2D transform.
 
 
 # Build step...
@@ -39,3 +40,5 @@ blueprintcss - MIT License (https://github.com/joshuaclayton/blueprint-css/blob/
 jquery.tagcloud.js - MIT License (https://github.com/addywaddy/jquery.tagcloud.js/blob/master/LICENSE)
 
 jquery.anchor.js - by Cedric Dugas (http://www.position-absolute.com)
+
+jquery.transform.js - by Grady Kuhnline, MIT or GPLv2 (https://github.com/heygrady/transform)
