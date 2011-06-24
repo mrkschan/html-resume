@@ -42,3 +42,9 @@ jquery.tagcloud.js - MIT License (https://github.com/addywaddy/jquery.tagcloud.j
 jquery.anchor.js - by Cedric Dugas (http://www.position-absolute.com)
 
 jquery.transform.js - by Grady Kuhnline, MIT or GPLv2 (https://github.com/heygrady/transform)
+
+
+# Todo
+
+- to be responsive (media quires)
+- complete the career objective / summary
