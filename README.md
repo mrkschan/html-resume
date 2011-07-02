@@ -1,6 +1,6 @@
 # What is this about?
 
-Just a resume held in a HTML5 file. Hopes to become a template or a starter for doing resume, just like the one for doing presentation (http://slides.html5rocks.com/).
+Just a resume held in a HTML file. Hopes to become a template or a starter for doing resume, just like the one for doing presentation (http://slides.html5rocks.com/).
 
 One particular objective of this stuff is to prevent user from doing the CSS styling right inside the HTML. The layout of this stuff utilizes the grid framework from Blueprint CSS. CSS classes are injected to HTML elements in js/scripts.js "Content Layout" section. Other styles besides of layout are defined in css/style.css following the HTML5 Boilerplate guidelines.
 
@@ -8,7 +8,7 @@ Another objective of this stuff is to try putting the technologies / buzz-words 
 
 If you would like to add your own section, just copy-n-paste any <section> inside the only <article> block and start work on it :)
 
-Sample - [http://mrkschan.github.com/html5-resume/](http://mrkschan.github.com/html5-resume/)
+Sample - [http://mrkschan.github.com/html-resume/](http://mrkschan.github.com/html-resume/)
 
 
 # Depends on...
@@ -22,10 +22,10 @@ Sample - [http://mrkschan.github.com/html5-resume/](http://mrkschan.github.com/h
 
 # Build step...
 
-    $> cd html5-resume/build/
+    $> cd html-resume/build/
     $> ant minify
 
-    output available at: html5-resume/publish/
+    output available at: html-resume/publish/
 
 
 # Copyright
