@@ -25,12 +25,12 @@ Sample - (http://mrkschan.github.com/html-resume/)
 
 * http://html5boilerplate.com/ - The starting kit of this stuff.
 * http://www.blueprintcss.org/ - A css framework with easy-to-use grid.
-* https://github.com/addywaddy/jquery.tagcloud.js
-  - A Simple Tag Cloud Plugin for JQuery.
-* http://www.position-absolute.com/articles/better-html-anchor-a-jquery-script-to-slide-the-scrollbar/
-  - A JQuery plugin for sliding to anchor.
-* http://wiki.github.com/heygrady/transform/
-  - A JQuery plugin to handle 2D transform.
+* https://github.com/addywaddy/jquery.tagcloud.js -
+  A Simple Tag Cloud Plugin for JQuery.
+* http://www.position-absolute.com/articles/better-html-anchor-a-jquery-script-to-slide-the-scrollbar/ -
+  A JQuery plugin for sliding to anchor.
+* http://wiki.github.com/heygrady/transform/ -
+  A JQuery plugin to handle 2D transform.
 
 
 # Build step...
