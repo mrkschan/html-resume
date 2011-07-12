@@ -65,4 +65,3 @@ jquery.transform.js - by Grady Kuhnline, MIT or GPLv2
 # Todo
 
 - to be responsive (media quires)
-- complete the career objective / summary
