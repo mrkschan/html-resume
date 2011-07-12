@@ -72,6 +72,10 @@ function __is_print() {
         'rel': $(el).attr('rel')
       }));
     });
+    $(container).append($('<div />', {
+      'class': 'prepend-16 span-8 last',
+      'html': '(The bigger the name, the more the experience...)'
+    }));
     $(container).appendTo(skills);
 
     $('span', container).tagcloud({
