@@ -1,4 +1,4 @@
-/* Author: 
+/* Author:
 - KS Chan (mrkschan@gmail.com)
 */
 
@@ -8,7 +8,7 @@ function __is_print() {
 }
 
 
-// Skills Tag-cloud
+// Toys Tag-cloud
 (function($) {
   var container = $('#tagcloud');
 
@@ -21,12 +21,12 @@ function __is_print() {
     var ADVANCED_WEIGHT = 64,
         INTERMEDIATE_WEIGHT = 32,
         ELEMENTARY_WEIGHT = 16,
-        skills = $('#skills'),
-        h2 = $('h2', skills),
-        ul = $('ul', skills),
-        advanced = $('ul:eq(0) li', skills),
-        intermediate = $('ul:eq(1) li', skills),
-        elementary = $('ul:eq(2) li', skills),
+        toys = $('#toys'),
+        h2 = $('h2', toys),
+        ul = $('ul', toys),
+        advanced = $('ul:eq(0) li', toys),
+        intermediate = $('ul:eq(1) li', toys),
+        elementary = $('ul:eq(2) li', toys),
         min_size = 10, min_size_def = $(container).attr('data-min-font-size'),
         max_size = 16, max_size_def = $(container).attr('data-max-font-size'),
         tags = [];
@@ -74,9 +74,9 @@ function __is_print() {
     });
     $(container).append($('<div />', {
       'class': 'prepend-16 span-8 last',
-      'html': '(The bigger the name, the more the experience...)'
+      'html': '(The bigger the name, the longer time I spent in...)'
     }));
-    $(container).appendTo(skills);
+    $(container).appendTo(toys);
 
     $('span', container).tagcloud({
       size: {start: min_size, end: max_size, unit: "pt"}

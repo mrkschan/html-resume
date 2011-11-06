@@ -10,10 +10,10 @@ framework from Blueprint CSS. CSS classes are injected to HTML elements in
 `js/scripts.js` "Content Layout" section. Other styles besides of layout are
 defined in `css/style.css` following the HTML5 Boilerplate guidelines.
 
-Another objective of this stuff is to try putting the technologies / buzz-words
-(which I just lazily call them skills) that someone acquired into a
-"skill cloud" (indeed something just like a tag cloud). In contrast to listing
-them one by one, a "skill cloud" would clearly show the expertise.
+Another objective of this stuff is to try putting the technologies / tech-buzz
+(which I just lazily call them tech. toys) that someone is familiar in into a
+"toy cloud" (indeed something just like a tag cloud). In contrast to listing
+them one by one, a "toy cloud" would clearly show the expertise.
 
 If you would like to add your own section, just copy-n-paste any <section> in
 the <article> block and start work on it :)
