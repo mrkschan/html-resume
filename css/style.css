@@ -677,3 +677,13 @@ hr.space {
   color: #fff;
   visibility: hidden;
 }
+
+ul.horizontal {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+ul.horizontal li {
+  display: inline;
+  list-style: none;
+  margin-right: 20px;
+}

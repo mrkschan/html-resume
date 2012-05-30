@@ -7,29 +7,23 @@ function __is_print() {
   return (search.indexOf('format=print') > -1);
 }
 
-
-// Toys Tag-cloud
+// Gear Table
 (function($) {
-  var container = $('#tagcloud');
+  $(document).ready(function() {
+    var gears = $('#gears'),
+        container = $('#geartable'),
+        levels = $('h2', gears),
+        items = $('ul', gears),
+        min_size = 12, min_size_def = $(container).attr('data-min-font-size'),
+        max_size = 20, max_size_def = $(container).attr('data-max-font-size'),
+        i = 0, j = 0, level, item, size, size_delta;
 
-  if (container.length < 1) {
-    // skip if no #tagcloud div
-    return;
-  }
+    items.addClass('horizontal');
 
-  function cloudify() {
-    var ADVANCED_WEIGHT = 64,
-        INTERMEDIATE_WEIGHT = 32,
-        ELEMENTARY_WEIGHT = 16,
-        toys = $('#toys'),
-        h2 = $('h2', toys),
-        ul = $('ul', toys),
-        advanced = $('ul:eq(0) li', toys),
-        intermediate = $('ul:eq(1) li', toys),
-        elementary = $('ul:eq(2) li', toys),
-        min_size = 10, min_size_def = $(container).attr('data-min-font-size'),
-        max_size = 16, max_size_def = $(container).attr('data-max-font-size'),
-        tags = [];
+    if (container.length < 1) {
+      // skip if no #geartable div
+      return;
+    }
 
     if (min_size_def) {
       min_size = parseInt(min_size_def);
@@ -38,51 +32,23 @@ function __is_print() {
       max_size = parseInt(max_size_def);
     }
 
-    $(advanced).each(function(idx, el) {
-      tags.push({
-        'text': $(el).html(),
-        'rel': ADVANCED_WEIGHT
-      });
-    });
+    size_delta = (max_size - min_size) / levels.length;
 
-    $(intermediate).each(function(idx, el) {
-      tags.push({
-        'text': $(el).html(),
-        'rel': INTERMEDIATE_WEIGHT
-      });
-    });
+    size = max_size;
+    for (i = 0; i < levels.length; i += 1) {
+      level = levels[i];
+      item = items[j];
+      $(level).addClass('span-7');
+      $(item).addClass('span-17 last')
+             .attr('style', 'font-size:' + size + 'px');
+      container.append(level)
+               .append(item)
+               .append($('<div />', {'class': 'clearfix'}));
 
-    $(elementary).each(function(idx, el) {
-      tags.push({
-        'text': $(el).html(),
-        'rel': ELEMENTARY_WEIGHT
-      });
-    });
-    tags = $(tags).sort(function(a, b) {
-      return $(a).attr('text').toLowerCase() > $(b).attr('text').toLowerCase();
-    });
-
-    $(h2).addClass('hidden');
-    $(ul).addClass('hidden');
-
-    $(tags).each(function(idx, el) {
-      $(container).append($('<span />', {
-        'style': 'display: inline-block; margin: 0 5px;',
-        'html': $(el).attr('text'),
-        'rel': $(el).attr('rel')
-      }));
-    });
-    $(container).append($('<div />', {
-      'class': 'prepend-16 span-8 last',
-      'html': '(The bigger the name, the longer time I spent in...)'
-    }));
-    $(container).appendTo(toys);
-
-    $('span', container).tagcloud({
-      size: {start: min_size, end: max_size, unit: "pt"}
-    });
-  }
-  cloudify();
+      j += 1;
+      size -= size_delta;
+    }
+  });
 })(jQuery);
 
 
