@@ -280,6 +280,12 @@ footer div {
   padding: 13px 10px 16px;
 }
 
+@media print {
+  footer div {
+    font-size: 95%;
+  }
+}
+
 footer ul {
   list-style-type: none;
   margin-left: 0px;
@@ -298,20 +304,20 @@ footer p {
   margin-top: 5px;
 }
 
-#skills div {
-  margin-top: 0;
-}
-
 #experience p, #education p {
   font-size: 80%;
 }
 
-@media print {
-  footer div {
-    font-size: 95%;
-  }
+#gears li[title] {
+  border-bottom: 1px dotted #ccc;
+  cursor: pointer;
 }
 
+@media print {
+  #gears li[title] {
+    border: none;
+  }
+}
 
 
 
