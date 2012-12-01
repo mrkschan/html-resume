@@ -308,6 +308,10 @@ footer p {
   font-size: 80%;
 }
 
+#experience ul {
+  margin-top: 5px;
+}
+
 #gears li[title] {
   border-bottom: 1px dotted #ccc;
   cursor: pointer;

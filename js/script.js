@@ -74,7 +74,7 @@ function __is_print() {
     $('h2', experience).addClass('span-12 append-7');
     $('p', experience).addClass('span-5 last');
     $('h3', experience).addClass('span-24 last');
-    $('ul', experience).addClass('span-24 last');
+    $('ul', experience).addClass('span-19 last');
 
     $('h2', education).addClass('span-12 append-7');
     $('p', education).addClass('span-5 last');
