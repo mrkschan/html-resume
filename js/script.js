@@ -38,8 +38,8 @@ function __is_print() {
     for (i = 0; i < levels.length; i += 1) {
       level = levels[i];
       item = items[j];
-      $(level).addClass('span-7');
-      $(item).addClass('span-17 last')
+      $(level).addClass('span-6');
+      $(item).addClass('span-18 last')
              .attr('style', 'font-size:' + size + 'px');
       container.append(level)
                .append(item)
