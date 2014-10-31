@@ -917,18 +917,6 @@ input[type="button"]:disabled,
   border-top: 0;
 }
 
-/* One */
-#one:before {
-  background-image: url("../images/banner.jpg");
-  background-position: top right;
-  background-repeat: no-repeat;
-  background-size: cover;
-  content: '';
-  display: block;
-  height: 15em;
-  width: 100%;
-}
-
 /* Footer */
 #footer {
   background: #fafafa;
