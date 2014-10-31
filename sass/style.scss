@@ -897,6 +897,16 @@ $size-header: 23em;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
+
+			.icons {
+				margin: 0;
+				
+				li {
+					a {
+						color: $color-header-fg-light;
+					}
+				}
+			}
 		}
 
 		> footer {
