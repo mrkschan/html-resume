@@ -14,7 +14,7 @@ $size-header: 21em;
 	body, input, select, textarea {
 		font-size: 13pt;
 	}
-	
+
 /* Header */
 
 	#header {
@@ -28,7 +28,7 @@ $size-header: 21em;
 			padding: 1.5em;
 		}
 	}
-	
+
 /* Wrapper */
 
 	#wrapper {
@@ -39,13 +39,13 @@ $size-header: 21em;
 			padding-left: $size-header;
 		}
 	}
-	
+
 /* Main */
 
-	#main {		
+	#main {
 		> section {
 			> .container {
-				padding: 4em 0 2em 0;
+				padding: 2em 0 1em 0;
 			}
 		}
 	}
