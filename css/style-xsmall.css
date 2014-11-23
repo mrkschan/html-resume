@@ -50,3 +50,8 @@ input[type="button"],
 .button {
   padding: 0;
 }
+
+/* Print */
+body.print #titleBar {
+  display: none !important;
+}

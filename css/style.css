@@ -945,3 +945,8 @@ input[type="button"]:disabled,
 #footer .copyright li a {
   color: inherit;
 }
+
+/* Print */
+body.print #footer {
+  display: none !important;
+}

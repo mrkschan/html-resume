@@ -107,3 +107,8 @@ header.major h2 + p {
   font-size: 14px;
   width: 44px;
 }
+
+/* Print */
+body.print #titleBar {
+  display: none !important;
+}

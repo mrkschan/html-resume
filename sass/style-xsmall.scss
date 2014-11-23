@@ -8,7 +8,7 @@
 */
 
 /* Basic */
-	
+
 	html, body {
 		min-width: 320px;
 	}
@@ -22,21 +22,21 @@
 	ul {
 		&.actions {
 			margin: 0 0 $size-element-margin 0;
-			
+
 			li {
 				display: block;
 				padding: ($size-element-margin * 0.5) 0 0 0;
 				text-align: center;
 				width: 100%;
-				
+
 				&:first-child {
 					padding-top: 0;
 				}
-				
+
 				> * {
 					width: 100%;
 					margin: 0 !important;
-					
+
 					&.icon {
 						&:before {
 							margin-left: -2em;
@@ -44,7 +44,7 @@
 					}
 				}
 			}
-			
+
 			&.small {
 				li {
 					padding: ($size-element-margin * 0.25) 0 0 0;
@@ -71,4 +71,9 @@
 	input[type="button"],
 	.button {
 		padding: 0;
+	}
+
+/* Print */
+	body.print #titleBar {
+		display: none !important;
 	}

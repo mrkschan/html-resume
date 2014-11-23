@@ -28,3 +28,8 @@ body, input, select, textarea {
 #main > section > .container {
   padding: 2em 0 1em 0;
 }
+
+/* Print */
+body.print #header {
+  display: none !important;
+}

@@ -49,3 +49,8 @@ $size-header: 21em;
 			}
 		}
 	}
+
+/* Print */
+	body.print #header {
+		display: none !important;
+	}

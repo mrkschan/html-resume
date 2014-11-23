@@ -37,7 +37,7 @@
 		&.left {
 			margin: 0 1.5em 1em 0;
 		}
-				
+
 		&.right {
 			margin: 0 0 1em 1.5em;
 		}
@@ -71,7 +71,7 @@
 				padding-right: 0;
 				width: 100%;
 			}
-			
+
 			.inner {
 				display: block;
 				width: 100%;
@@ -84,7 +84,7 @@
 	#header {
 		> header {
 			padding: 2em;
-			
+
 			.avatar {
 				margin: 0 auto ($size-element-margin * 0.75) auto;
 				width: 6em;
@@ -93,7 +93,7 @@
 			h1 {
 				font-size: 1.5em;
 			}
-			
+
 			p {
 				margin: 1em 0 0 0;
 			}
@@ -103,10 +103,10 @@
 			padding: 1.5em;
 		}
 	}
-	
+
 /* Main */
 
-	#main {		
+	#main {
 		> section {
 			> .container {
 				padding: 2em 0 0 0;
@@ -121,12 +121,12 @@
 			height: 7em;
 		}
 	}
-	
+
 /* Footer */
 
 	#footer {
 		text-align: center;
-		
+
 		.copyright {
 			li {
 				border-left: 0;
@@ -134,14 +134,14 @@
 				line-height: 1.75em;
 				margin: 0.75em 0 0 0;
 				padding-left: 0;
-				
+
 				&:first-child {
 					margin-top: 0;
 				}
 			}
 		}
 	}
-	
+
 /* Layers */
 
 	#titleBar {
@@ -154,4 +154,9 @@
 				width: 44px;
 			}
 		}
+	}
+
+/* Print */
+	body.print #titleBar {
+		display: none !important;
 	}

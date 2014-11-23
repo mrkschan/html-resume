@@ -14,13 +14,13 @@ $size-header: 20em;
 	body, input, select, textarea {
 		font-size: 11pt;
 	}
-	
+
 /* Header */
 
 	#header {
 		width: $size-header;
 	}
-	
+
 /* Wrapper */
 
 	#wrapper {
@@ -30,4 +30,9 @@ $size-header: 20em;
 		@else {
 			padding-left: $size-header;
 		}
+	}
+
+/* Print */
+	body.print #header {
+		display: none !important;
 	}

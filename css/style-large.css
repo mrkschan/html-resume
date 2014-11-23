@@ -17,3 +17,8 @@ body, input, select, textarea {
 #wrapper {
   padding-right: 20em;
 }
+
+/* Print */
+body.print #header {
+  display: none !important;
+}

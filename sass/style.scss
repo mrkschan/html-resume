@@ -1022,3 +1022,8 @@ $size-header: 23em;
 			}
 		}
 	}
+
+/* Print */
+	body.print #footer {
+		display: none !important;
+	}
