@@ -962,34 +962,27 @@ input[type="button"]:disabled,
 body.print .print-only {
   display: block;
 }
-
 body.print #wrapper {
   padding-right: 0;
 }
-
 body.print #footer {
   display: none !important;
 }
-
 body.print ul.feature-icons {
   list-style: disc !important;
   padding-left: 1em !important;
 }
-
 body.print ul.feature-icons li {
   display: list-item !important;
   float: left !important;
   padding-left: 0 !important;
 }
-
 body.print ul.feature-icons li:before {
   display: none !important;
 }
-
 body.print ul.feature-icons li {
   margin-right: 0.8em !important;
 }
-
 body.print a.github:before {
   content: "https://github.com/" !important;
 }
