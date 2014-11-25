@@ -959,6 +959,9 @@ input[type="button"]:disabled,
   display: none;
 }
 
+body.print {
+  font-size: 10pt;
+}
 body.print .print-only {
   display: block;
 }

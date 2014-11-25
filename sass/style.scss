@@ -1042,6 +1042,8 @@ $size-header: 23em;
 	}
 
 	body.print {
+		font-size: 10pt;
+
 		.print-only {
 			display: block;
 		}
