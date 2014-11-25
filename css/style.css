@@ -968,6 +968,15 @@ body.print #wrapper {
 body.print #footer {
   display: none !important;
 }
+body.print .container {
+  padding: 1em 0 0em 0 !important;
+}
+body.print .container p {
+  margin: 0 0 1.6875em;
+}
+body.print .container ul {
+  margin: 0 0 1.6875em;
+}
 body.print ul.feature-icons {
   list-style: disc !important;
   padding-left: 1em !important;

@@ -1054,6 +1054,18 @@ $size-header: 23em;
 			display: none !important;
 		}
 
+		.container {
+			padding: 1em 0 0em 0 !important;
+
+			p {
+				margin: 0 0 1.6875em;
+			}
+
+			ul {
+				margin: 0 0 1.6875em;
+			}
+		}
+
 		ul.feature-icons {
 			list-style: disc !important;
 			padding-left: 1em !important;
