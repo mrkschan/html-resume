@@ -1085,6 +1085,10 @@ $size-header: 23em;
 			}
 		}
 
+		h1, h2, h3, h4, h5, h6 {
+			margin: 0 0 0.1em;
+		}
+
 		ul.feature-icons {
 			list-style: disc !important;
 			padding-left: 1em !important;

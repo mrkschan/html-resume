@@ -992,6 +992,9 @@ body.print #one {
 body.print #one .container {
   padding: 0 !important;
 }
+body.print h1, body.print h2, body.print h3, body.print h4, body.print h5, body.print h6 {
+  margin: 0 0 0.1em;
+}
 body.print ul.feature-icons {
   list-style: disc !important;
   padding-left: 1em !important;
