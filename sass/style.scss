@@ -1066,6 +1066,23 @@ $size-header: 23em;
 			}
 		}
 
+		.major {
+			h2 {
+				display: none;
+			}
+
+			h2 + p {
+				font-size: 1em;
+			}
+		}
+		#one {
+			border-top: 0;
+
+			.container {
+				padding: 0 !important;
+			}
+		}
+
 		ul.feature-icons {
 			list-style: disc !important;
 			padding-left: 1em !important;

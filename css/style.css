@@ -977,6 +977,18 @@ body.print .container p {
 body.print .container ul {
   margin: 0 0 1.6875em;
 }
+body.print .major h2 {
+  display: none;
+}
+body.print .major h2 + p {
+  font-size: 1em;
+}
+body.print #one {
+  border-top: 0;
+}
+body.print #one .container {
+  padding: 0 !important;
+}
 body.print ul.feature-icons {
   list-style: disc !important;
   padding-left: 1em !important;
