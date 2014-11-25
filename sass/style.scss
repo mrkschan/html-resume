@@ -1045,6 +1045,10 @@ $size-header: 23em;
 		display: block;
 	}
 
+	body.print #wrapper {
+		padding-right: 0;
+	}
+
 	body.print #footer {
 		display: none !important;
 	}
