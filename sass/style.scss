@@ -1023,7 +1023,28 @@ $size-header: 23em;
 		}
 	}
 
+/* Badge */
+	#badge {
+		.icons {
+			li {
+				display: block;
+			}
+
+			span + span {
+				margin-left: 5px;
+			}
+		}
+	}
+
 /* Print */
+	.print-only {
+		display: none;
+	}
+
+	body.print .print-only {
+		display: block;
+	}
+
 	body.print #footer {
 		display: none !important;
 	}

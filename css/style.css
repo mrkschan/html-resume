@@ -946,7 +946,23 @@ input[type="button"]:disabled,
   color: inherit;
 }
 
+/* Badge */
+#badge .icons li {
+  display: block;
+}
+#badge .icons span + span {
+  margin-left: 5px;
+}
+
 /* Print */
+.print-only {
+  display: none;
+}
+
+body.print .print-only {
+  display: block;
+}
+
 body.print #footer {
   display: none !important;
 }
