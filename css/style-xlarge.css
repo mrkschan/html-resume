@@ -13,7 +13,7 @@ body, input, select, textarea {
   width: 21em;
 }
 #header > header {
-  padding: 2em;
+  padding: 1em 2em;
 }
 #header > footer {
   padding: 1.5em;
