@@ -1010,6 +1010,3 @@ body.print ul.feature-icons li:before {
 body.print ul.feature-icons li {
   margin-right: 0.8em !important;
 }
-body.print a.github:before {
-  content: "https://github.com/" !important;
-}
