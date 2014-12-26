@@ -1044,6 +1044,10 @@ $size-header: 23em;
 	body.print {
 		font-size: 10pt;
 
+		.print-hidden {
+			display: none;
+		}
+
 		.print-only {
 			display: block;
 		}
